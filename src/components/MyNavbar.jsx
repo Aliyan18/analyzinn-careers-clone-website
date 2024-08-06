@@ -8,7 +8,7 @@ function MyNavbar() {
   return (
     <nav className="navbar navbar-expand-lg justify-content-between" style={{zIndex:'1',opacity:1,
     fontWeight: 200, color:'white'}}>
-    <a className="navbar-brand" href="#" style={{color:'white',opacity:1,
+    <a className="navbar-brand" href="#" style={{color:'red',opacity:1,
     fontWeight: 200,marginLeft:20}}>Navbar</a>
     <div>
 
@@ -33,7 +33,7 @@ function MyNavbar() {
     fontWeight: 200}}>Contact</a>
         </li>
         <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" style={{color:'white',opacity:1,
+          <a className="nav-link dropdown-toggle" href="/services" id="navbarDropdownMenuLink" style={{color:'white',opacity:1,
     fontWeight: 200,marginRight:60}} data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 Services          </a>
           <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style={{opacity:1,

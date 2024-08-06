@@ -1,0 +1,86 @@
+.nextcontainer1{
+    background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+    url('../images/dba.png');
+    background-size: 1800px 1000px; /* Adjusts the background image to cover the entire container */
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    margin-top: 800px;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+.text2{
+    color: black;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.text1{
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* From Uiverse.io by adamgiebl */ 
+button {
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: white;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 black;
+  }
+  
+  button:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 rgb(86, 83, 83);
+  }
+  
+  button:active {
+    transform: scale(0.9);
+  }
+
+  .heading{
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+.image-container{
+    margin-left: 350px;
+}
+
+.list-container {
+    text-align: left;
+    margin: 20px 0;
+    padding: 0 20px;
+  }
+  
+  .list-container p {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .list-container ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .list-container li {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+  }
