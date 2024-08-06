@@ -1,0 +1,17 @@
+.introText {
+    width:50%;
+    display: flex;
+    justify-content: flex-end; /* Use flex-end instead of right */
+    flex-direction: column;
+    margin-left: 40vw;
+}
+
+@media (max-width: 50vw) { /* Use max-width instead of width< */
+    .introText {
+        width:40%;
+
+        justify-content: flex-start; /* Use flex-start instead of left */
+    margin-left:0;
+    }
+    
+}

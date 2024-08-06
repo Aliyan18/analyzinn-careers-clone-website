@@ -4,6 +4,13 @@
     margin-right:0;
 
 }
+#a{
+    color:white;
+}
+#a:hover{
+background-color: white;
+color:black;
+}
 /* src/styleSheets/navbar.css */
 
 /* Change the navbar toggler icon color to white */

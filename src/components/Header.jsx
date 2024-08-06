@@ -1,18 +1,24 @@
+import backG from '../images/th.jpeg'; 
+import Stats from './Stats.jsx'; 
 
-import backG from '../images/backG.jpg'; 
+export default function Header() {
+    const style = {
+        position: 'relative',
+        top: -100,
+        width: '100%',
+        height: '100vh',
+        backgroundImage: `url(${backG})`,
+        backgroundSize: 'cover', 
+        backgroundPosition: 'center' 
+    }
 
-export default function Header(){
-const style={
-    position:'absolute',
-    top:0,
-    width:'100%',
-    height:'auto'
-}
+    return (
+        <>
+            <div style={style}>
 
-return(
-<>
-<img src={backG} alt="image" style={style}/>
-</>
-)
-
+                <Stats></Stats>
+          
+                  </div>
+        </>
+    )
 }
