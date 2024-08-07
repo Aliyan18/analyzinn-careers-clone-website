@@ -16,7 +16,7 @@ function MyNavbar() {
   const[style,setStyle]=useState(st);
     function handleClick(){
       if(style.backgroundColor=="transparent")
-setStyle({...style,backgroundColor:'grey'});
+setStyle({...style,backgroundColor:'#45526e'});
 else
 setStyle({...style,backgroundColor:"transparent"});
 

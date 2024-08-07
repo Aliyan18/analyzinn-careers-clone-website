@@ -4,14 +4,59 @@
     justify-content: flex-end; /* Use flex-end instead of right */
     flex-direction: column;
     margin-left: 40vw;
+    color:white;
+    padding-top: 200px;
+    overflow:hidden;
+}
+.p1{
+    font-size: clamp(4px,2.5vw,15px);
+}
+.p2{
+    font-size: clamp(5px,9vw,60px);
+}
+.p3{
+    font-size: clamp(2px,2.5vw,15px);
 }
 
-@media (max-width: 50vw) { /* Use max-width instead of width< */
-    .introText {
-        width:40%;
+  
 
-        justify-content: flex-start; /* Use flex-start instead of left */
-    margin-left:0;
+@media(max-width:1000px){
+.introText{
+    width:100%;
+    display: flex;
+    justify-content: flex-start; /* Use flex-end instead of right */
+    flex-direction: column;
+    margin-left: 0;
+    color:white;
+    padding-top:50;
+}
+.p1{
+    font-size:5px ;
+}
+.p2{
+    font-size:40px ;
+}
+.p3{
+    font-size:8px ;
+}
+}
+@media(max-width:550px){
+    .introText{
+        width:100%;
+        display: flex;
+        justify-content: flex-start; 
+        flex-direction: column;
+        margin-left: 0;
+        color:white;
+        padding-top:20;
     }
-    
-}
+    .p1{
+        font-size:5px ;
+    }
+    .p2{
+        font-size:20px ;
+    }
+    .p3{
+        font-size:8px ;
+    }
+    }
