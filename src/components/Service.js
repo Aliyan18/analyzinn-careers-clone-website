@@ -6,6 +6,7 @@ import businessAnalyticsLogo from '../images/businessAnalyticsLogo.png';
 import digitalMarketingLogo from '../images/digitalMarketingLogo.png';
 import automationIntegrationLogo from '../images/automationIntegrationLogo.png';
 import BusinessAnalytics from './BusinessAnalytics';
+import DigitalMarketingAnalysis from './DigitalMarketingAnalysis';
 
 
 const Services = () => {
@@ -44,6 +45,7 @@ const Services = () => {
        
     </div>
     <BusinessAnalytics/>
+    <DigitalMarketingAnalysis/>
     </div>
    
  </>

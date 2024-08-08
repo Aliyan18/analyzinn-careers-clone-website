@@ -8,7 +8,7 @@ function MyNavbar() {
   return (
     <nav className="navbar navbar-expand-lg justify-content-between" style={{zIndex:'1',opacity:1,
     fontWeight: 200, color:'white'}}>
-    <a className="navbar-brand" href="#" style={{color:'red',opacity:1,
+    <a className="navbar-brand" href="#" style={{color:'white',opacity:1,
     fontWeight: 200,marginLeft:20}}>Navbar</a>
     <div>
 

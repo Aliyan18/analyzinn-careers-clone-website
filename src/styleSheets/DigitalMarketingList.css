@@ -1,26 +1,28 @@
-.serviceba-card {
+.servicedma-card {
     margin: 20px;
-    width: 400px;
+    width: 340px;
     padding: 40px;
+    border: 1px solid #ddd;
     border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     display: flex;
     flex-direction:column;
     float: left;
     align-items: center;
-    margin-left: 120px;
+    margin-left: 140px;
     margin-top: 100px;
+    background-color: lavender;
   }
 
-  .serviceba-title {
+  .servicedma-title {
     font-size: 1.5em;
     color: #333;
     margin-bottom: 10px;
     text-align: center;
   }
   
-  .serviceba-description {
-    font-size: 20px;
-    color: #666;
-    text-align: center;
+  .imageedma {
+    background-size: cover;
   }
+  

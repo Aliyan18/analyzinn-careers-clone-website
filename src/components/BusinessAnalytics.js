@@ -1,8 +1,10 @@
 import React,{useState} from 'react'
 import '../styleSheets/BusinessAnalytics.css'
 import BusinessAnalyticsList from "./BusinessAnalyticsList";
-
 import image from "../images/dba3.png";
+import image1 from "../images/dba5.png";
+import image2 from "../images/dba6.png";
+import image3 from "../images/dba7.png";
 
 const BusinessAnalytics = () => {
 
@@ -28,24 +30,12 @@ const BusinessAnalytics = () => {
         <div className="text1">Welcome to the World of</div>
         <div className="heading">Data & Business Analytics</div>
         <div className="text2">We support leaders to EVOLVE their organizations using our proven business analyzinn services — <br></br> helping you achieve a competitive advantage with actionable insights.</div>
-        <button> <div className="text1">Request a free consultation today</div>
-</button>
+        <button> <div className="text1">Request a free consultation today</div></button>
     </div>
     <div className="image-container">
         <img src={image} alt="Data and Business Analytics" className="image" />
-      </div>
-     <div className="services-container">
-     {businessAnalytics.map((service, index) => (
-       <BusinessAnalyticsList 
-         key={index}
-         title={service.title}
-         description={service.description}
-       />
-     ))}
-    <div/>  
-    
-  </div>
-  <div className="list-container">
+    </div>
+    <div className="list-container">
         <p>ANALYZINN can help to gain competitive advantage by providing you the right knowledge, at the right time, so you can:</p>
         <ul>
           <li>Understand your customers & offer Superior Customer Experience</li>
@@ -54,7 +44,43 @@ const BusinessAnalytics = () => {
           <li>Innovate faster with relevant data</li>
           <li>Gain competitive advantage & make informed and optimized decisions</li>
         </ul>
+    </div>
+    <div className="services-container">
+     {businessAnalytics.map((service, index) => (
+       <BusinessAnalyticsList 
+         key={index}
+         title={service.title}
+         description={service.description}
+       />
+     ))}
+    <div/>  
+  </div>
+  <div className="first">
+    <div className="headingg">Data & Business Analytics Services</div>
+    <div className="box1">
+      <div className="text3">Data Management Services</div> <br></br>
+      <p>Database Systems Automation. Quality Control. Data Integration & Warehousing. Transformation.</p>
+      <div className="image1">
+        <img src={image1} alt="Data and Business Analytics" />
       </div>
+    </div>
+    <div className="box2">
+      <div className="text4">Marketing Analytics</div> <br></br>
+      <p>Business Discovery with Marketing Stakeholders Opportunity/Threat Identification Marketing and Customer Insights, Segmentation, and Personalization Marketing Mix Modeling (MMM) Attribution Modeling Product Life Cycle Analysis Customer Analytics Services Customer Lifetime Value / RFM Analysis Customer Journey Analysis Retention/Churn Analysis Marketing Dashboards (Salesforce, Marketo, Klipfolio, etc)</p>
+      <div className="image2">
+        <img src={image2} alt="Data and Business Analytics" />
+      </div>
+    </div>
+    <div className="box3">
+      <div className="text5">Data Management Services</div> <br></br>
+      <p>Database Systems Automation. Quality Control. Data Integration & Warehousing. Transformation.</p>
+      <div className="image3">
+        <img src={image3} alt="Data and Business Analytics" />
+      </div>
+      <br></br> <br></br> <br></br>
+    </div>
+  </div>
+  
    </>
   );
 };

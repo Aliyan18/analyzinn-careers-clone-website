@@ -60,17 +60,19 @@ button {
   }
 
 .image-container{
-    margin-left: 350px;
+    margin-left: 100px;
 }
 
 .list-container {
     text-align: left;
-    margin: 20px 0;
+    margin-left: 900px;
+   margin-top: -370px;
     padding: 0 20px;
   }
   
   .list-container p {
-    font-size: 18px;
+    font-size: 22px;
+    font-weight: 600;
     color: #333;
   }
   
@@ -80,7 +82,71 @@ button {
   }
   
   .list-container li {
-    font-size: 16px;
+    font-size: 20px;
     color: #555;
     margin: 10px 0;
   }
+
+.first{
+  margin-top: 800px;
+}
+
+.headingg{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.box1 .text3{
+  margin-top: 150px;
+  margin-left: 150px;
+  font-size: 30px;
+  font-weight: 650;
+}
+
+.box1 p{
+  font-size: 20px;
+  margin-left: 150px;
+  width: 500px;
+}
+
+.box1 .image1{
+  margin-left: 750px;
+  margin-top: -250px;
+}
+
+.box2 .text4{
+  margin-top: 200px;
+  margin-left: 900px;
+  font-size: 30px;
+  font-weight: 650;
+}
+
+.box2 p{
+  font-size: 20px;
+  margin-left: 900px;
+  width: 500px;
+}
+
+.box2 .image2{
+  margin-top: -450px;
+  margin-left: 150px;
+}
+
+.box3 .text5{
+  margin-top: 150px;
+  margin-left: 150px;
+  font-size: 30px;
+  font-weight: 650;
+}
+
+.box3 p{
+  font-size: 20px;
+  margin-left: 150px;
+  width: 500px;
+}
+
+.box3 .image3{
+  margin-left: 750px;
+  margin-top: -250px;
+}
