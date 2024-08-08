@@ -21,16 +21,26 @@
     background-color: white;
   }
 
+
   .service-title {
     font-size: 1.5em;
     color: #333;
     margin-bottom: 10px;
     text-align: center;
   }
+
+  .service-card .service-title a {
+    text-decoration: none; /* Removes the underline */
+    color: inherit; /* Inherits the color of the parent element */
+  }
   
+  .service-title a:hover {
+    text-decoration: underline; /* Optional: Add underline on hover */
+  }
   .service-description {
     font-size: 20px;
     color: #666;
     text-align: center;
   }
   
+ 
