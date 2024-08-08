@@ -2,7 +2,7 @@ import React from 'react';
 import { Form, Input, Button, Row, Col, Typography } from 'antd';
 import { FacebookOutlined, LinkedinOutlined } from '@ant-design/icons';
 import emailjs from '@emailjs/browser';
-import '../Stylesheets/ContactForm.css';
+import '../styleSheets/ContactForm.css';
 
 const { Title, Paragraph } = Typography;
 

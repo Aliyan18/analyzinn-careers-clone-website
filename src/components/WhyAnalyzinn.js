@@ -1,7 +1,7 @@
   
 import React from 'react';
 import image from "../images/choose.PNG";
-import '../Stylesheets/WhyAnalyzinn.css';
+import '../styleSheets/WhyAnalyzinn.css';
 import { Row, Col, Typography, List } from 'antd';
 import {
   BarChartOutlined,

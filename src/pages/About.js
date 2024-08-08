@@ -3,6 +3,8 @@ import MyNavbar from '../components/MyNavbar'
 import Aboutsection from '../components/Aboutsection';
 import WhyAnalyzinn from '../components/WhyAnalyzinn';
 import Footer from '../components/Footer'; 
+import Testimonials from '../components/Testimonials.jsx'
+
 
 export default function ContactPage() {
   return (
@@ -12,6 +14,7 @@ export default function ContactPage() {
         <Aboutsection />
         <WhyAnalyzinn />
       </div>
+      <Testimonials></Testimonials>
       <Footer /> 
     </>
   );

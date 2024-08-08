@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col, Typography } from 'antd';
-import '../Stylesheets/Aboutsection.css';
+import '../styleSheets/Aboutsection.css';
 
 const { Title, Paragraph } = Typography;
 
