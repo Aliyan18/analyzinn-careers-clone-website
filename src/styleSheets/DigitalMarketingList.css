@@ -1,0 +1,41 @@
+.servicedma-card {
+    margin: 20px;
+    width: 20%;
+    padding: 40px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    flex-direction:column;
+    float: left;
+    align-items: center;
+    margin-left: 140px;
+    margin-top: 100px;
+    background-color: lavender;
+  }
+
+  .servicedma-title {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .imageedma {
+    background-size: cover;
+  }
+
+  @media (max-width: 1200px) {
+    .servicedma-card{
+      width: 250px;
+      padding: 10px;
+      margin: 10px;
+      margin-left: 100px;
+    }
+    .imageedma{
+      width: 200px;
+      height: auto;
+    }
+  }
+  

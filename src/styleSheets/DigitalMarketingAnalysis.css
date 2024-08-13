@@ -1,0 +1,96 @@
+.background{
+    height: fit-content;
+    width: 100%;
+    background-color: rgb(124, 124, 159);
+   padding-bottom: 20px;
+    
+}
+
+.nextcontainer{
+    background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+    url('../images/dma.png');
+    background-size: 1800px 1000px; /* Adjusts the background image to cover the entire container */
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    margin-top: 10px;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    background-size: cover ;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text2{
+    color: black;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.text1{
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.heading{
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+.imagee{
+    margin-left: 550px;
+}
+
+.left{
+        margin-top: -200px;
+  }
+
+.lastheading{
+    margin-top: 1000px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+.list-container1 {
+    text-align: left;
+    margin-left: 200px;
+   margin-top: 60px;
+    padding: 0 20px;
+  }
+  
+  .list-container1 p {
+    font-size: 22px;
+    font-weight: 600;
+    color: black;
+  }
+  
+  .list-container1 ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .list-container1 li {
+    font-size: 20px;
+    color: black;
+    margin: 10px 0;
+  }
+
+  @media (max-width: 1200px) {
+   .background{
+    height: 2200px;
+   } 
+
+   .lastheading{
+    margin-top: 1020px;
+   }
+  }
