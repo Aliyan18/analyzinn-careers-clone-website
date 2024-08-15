@@ -11,18 +11,27 @@
     justify-content: center;
     height: 600px;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 4%;
     align-items: center;
     align-content: center;
     align-self: center;
     text-align: center;
 }
 
-.text1{
+.text11{
     color: black;
     text-transform: uppercase;
     font-size: 20px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.textt{
+  color: black;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width:55%;
+  font-weight: 800;
 }
 
 /* From Uiverse.io by adamgiebl */ 
@@ -46,52 +55,67 @@ button {
   
   button:hover {
     color: white;
-    box-shadow: inset 0 -100px 0 0 rgb(86, 83, 83);
+    box-shadow: inset 0 -100px 0 0 rgb(83, 84, 86);
   }
   
   button:active {
     transform: scale(0.9);
   }
 
-  .heading{
-    font-size: 50px;
+  .headingt{
+    font-size: 40px;
     font-weight: 700;
   }
 
 .image-containerdba{
-    margin-left: 100px;
+    margin-left: 5%;
     width: 40%;
     height: auto;
+    margin-top: 2.5%;
 }
 
-.list-container {
+
+
+.list-containerba {
   display: inline-block;;
     text-align: left;
-    margin-left: 900px;
-   margin-top: -370px;
-    padding: 0 20px;
-    width:60%;
+    margin-left: 50%;
+   margin-top: -50%;
+    padding: 0 40px;
+    width:40%;
+    
   }
   
-  .list-container p {
+  .list-containerba p {
     font-size: 22px;
     font-weight: 600;
     color: #333;
   }
   
-  .list-container ul {
+  .list-containerba ul {
     list-style-type: disc;
     padding-left: 20px;
   }
   
-  .list-container li {
+  .list-containerba li {
     font-size: 20px;
     color: #555;
     margin: 10px 0;
   }
 
+  .servicesba-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch; /* Ensures all cards have the same height */
+    flex-wrap: wrap; /* Allows cards to wrap on smaller screens */
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 10%;
+}
+
+
 .first{
-  margin-top: 800px;
+  margin-top: 0%;
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
@@ -108,88 +132,109 @@ button {
     font-weight: 700;
 }
 
+.box1, .box2,.box3{
+  margin-left: -40%;
+}
+
+
 .box1 .text3{
-  margin-top: 150px;
-  margin-left: 150px;
+  margin-top: 10%;
+  margin-left: 10%;
   font-size: 30px;
   font-weight: 650;
 }
 
 .box1 p{
   font-size: 20px;
-  margin-left: 150px;
-  width: 500px;
+  margin-left: 10%;
+  width: 60%;
 }
 
 .box1 .image1{
-  margin-left: 750px;
-  margin-top: -250px;
+  margin-left: 70%;
+  width: 10%;
+  height: auto;
+  margin-top: -20%;
 }
 
 .box2 .text4{
-  margin-top: 200px;
-  margin-left: 900px;
+  margin-top: 10%;
+  margin-left: 100%;
   font-size: 30px;
   font-weight: 650;
 }
 
 .box2 p{
   font-size: 20px;
-  margin-left: 900px;
+  margin-left: 100%;
   width: 500px;
 }
 
 .box2 .image2{
-  margin-top: -450px;
-  margin-left: 150px;
+  margin-top: -70%;
+  margin-left: -20%;
 }
 
 .box3 .text5{
   margin-top: 150px;
-  margin-left: 150px;
+  margin-left: 5%;
   font-size: 30px;
   font-weight: 650;
 }
 
 .box3 p{
   font-size: 20px;
-  margin-left: 150px;
+  margin-left: 5%;
   width: 500px;
+  text-wrap: wrap;
 }
 
 .box3 .image3{
-  margin-left: 750px;
-  margin-top: -250px;
+  margin-left: 80%;
+  margin-top: -25%;
 }
+
+@media (max-width: 1300px) {
+  .servicesba-container {
+      flex-direction: column; /* Stack cards vertically */
+      align-items: center; /* Center cards in the column layout */
+  }
+}
+
 
 @media (max-width: 1200px) {
   .nextcontainer1 {
-      margin-top: 400px;
+      margin-top: 5%;
   }
-  .list-container {
-      margin-left: auto;
-      margin-top: 20px;
+  .list-containerba {
+      margin-left: 50%;
+      margin-top: -25%;
       text-align: left;
   }
   .first {
     width: 1500px; /* Ensure it takes full width */
     padding: 0px; /* Adjust padding for smaller screens */
-    margin-top: 1800px; /* Maintain margin for spacing */
+    margin-top: 0%; /* Maintain margin for spacing */
   }
 
 .headingg{
   font-size: 26px;
   text-align: left;
 }
-.box1 .text3, .box2 .text4, .box3 .text5 {
-  margin-top: 180px;
-  font-size: 20px;
+.box3 .text5{
+  margin-left: 10%;
+}
+.box3 p{
+  margin-left: 10%;
+}
 
+.box3 p{
+  font-size: 20px;
+  margin-left: 5%;
+  width: 500px;
+  text-wrap: wrap;
 }
-.box1 .image1, .box2 .image2, .box3 .image3 {
- width: 20px;
- height: auto;
-}
+
   
 }
 
@@ -204,45 +249,55 @@ button {
     text-align: center;
   }
 
-  .heading {
-      font-size: 36px;
+  .headingt {
+      font-size: 30px;
   }
 
-  .text1, button {
-      font-size: 16px;
-      width: 100%; /* Increase width to fit inside background */
-      padding: 0 10px; /* Add padding */
-       text-align: center;
-  }
+ .servicesba-container{
+  margin-top: 50%;
+ }
 
-  .list-container {
-   
+  .list-containerba {
+    display:block;
       text-align: left;
       margin: 20px;
+      width: 60%;
   }
 
   
   .first {
-    width: 100%; /* Ensure it takes full width */
+    width: 1000px; /* Ensure it takes full width */
     padding: 10px; /* Adjust padding for smaller screens */
     margin-top: 20px; /* Maintain margin for spacing */
   }
   
 
   .headingg{
-    font-size: 16px;
-    margin-top: 5000px;
+    margin-left: 20%; 
+    font-size: 30px;
+    margin-top: 20%;
   }
 
-  .box1 .text3, .box2 .text4, .box3 .text5 {
-      margin-top: 50px;
-      font-size: 20px;
-  }
-
-  .box1 p, .box2 p, .box3 p {
-      font-size: 16px;
-      width: 100%;
+  .box1, .box2, .box3{
+    margin-left: 20%;
   }
 
 
+}
+
+@media (max-width: 568px) {
+  button{
+    margin: 8px;
+    padding: 8px 23px;
+  }
+  .text11{
+    font-size: 14px;
+  }
+  .textt{
+    font-size: 18px;
+    width: 60%;
+  }
+  .servicesba-container{
+    margin-top: 120%;
+  }
 }

@@ -7,31 +7,26 @@ import '../styleSheets/navbar.css'
 import { useAccordionButton } from 'react-bootstrap';
 import { useState } from 'react';
 import logo from '../images/analyzinn_logo.png'
-import { BrowserRouter,  Route, Routes,NavLink } from 'react-router-dom';
+import { BrowserRouter,  Route, Routes,NavLink,Link } from 'react-router-dom';
 
 function MyNavbar() {
 
-  const st={zIndex:'1',
-  fontWeight: 200, color:'white',backgroundColor:"black"}
+  const style={zIndex:'1',
+  fontWeight: 200, color:'white',backgroundColor:"black",position:'sticky', top: '0'}
 
-  const[style,setStyle]=useState(st);
-    function handleClick(){
-      if(style.backgroundColor=="black")
-setStyle({...style,backgroundColor:'#45526e'});
-else
-setStyle({...style,backgroundColor:"black"});
+  
 
-    } 
+    
   return (
     <nav className="navbar navbar-expand-lg justify-content-between " style={style}>
-    <NavLink to="/" className="navbar-brand custom-navbar"  style={{color:'white',opacity:1,
+    <Link to="/" className="navbar-brand custom-navbar"  style={{color:'white',opacity:1,
     fontWeight: 200,marginLeft:20}}>
 
       <img src={logo} style={{height:'60px',width:'200px'}} alt="logo" />
-    </NavLink>
+    </Link>
     <div>
 
-    <button onClick={handleClick} className="navbar-toggler " type="button" style={{backgroundColor:'white',opacity:1,
+    <button  className="navbar-toggler " type="button" style={{backgroundColor:'grey',opacity:1,
     fontWeight: 200}} data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>

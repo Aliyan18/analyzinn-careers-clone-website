@@ -44,12 +44,12 @@ const AutomationAndIntegration = () => {
     <>
         <div className="nextcontainer2">
                 <div className="text1">Explore</div>
-                <div className="heading">Automation & Integration</div>
-                <div className="text1"><i>Analyzinn Solutions offer end-to-end Automation and Integration Services to help you embrace digital transformation and build a cost-efficient system. We are experienced in leveraging APIs and the Integration of standard applications. We help you reduce manual efforts.</i></div>
+                <div className="headingai">Automation & Integration</div>
+                <div className="texttt1"><i>Analyzinn Solutions offer end-to-end Automation and Integration Services to help you embrace digital transformation and build a cost-efficient system. We are experienced in leveraging APIs and the Integration of standard applications. We help you reduce manual efforts.</i></div>
                 <button> <div className="text1">free consultation today</div></button>
         </div>
         <div className="bg">
-            <div className="ourServices"><br></br>Our Services</div>
+            <div className="ourServices">Our Services</div>
             <div className="list-container2">
                 <p>Our Services will help you Answer these Questions:</p>
                 <ul>

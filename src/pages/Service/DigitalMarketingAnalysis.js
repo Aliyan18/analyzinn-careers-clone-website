@@ -43,13 +43,13 @@ const DigitalMarketingAnalysis = () => {
     <div className="background">
         <div className="nextcontainer">
             <div className="text1">Dive In</div>
-            <div className="heading">Digital Marketing Analytics</div>
-            <div className="text1"><i>We support leaders to EVOLVE their organizations using our proven Digital marketing analyzinn services — helping you achieve a competitive advantage with actionable insights.</i></div>
+            <div className="headinggg">Digital Marketing Analytics</div>
+            <div className="textt1"><i>We support leaders to EVOLVE their organizations using our proven Digital marketing analyzinn services — helping you achieve a competitive advantage with actionable insights.</i></div>
             <button> <div className="text1">free consultation today</div></button>
         </div>
         <br></br> <br></br> <br></br> 
         
-        <div className="services-container">
+        <div className="services-containerdma">
      {DMA.map((service, index) => (
        <DigitalMarketingAnalysisList
             key={index}

@@ -26,17 +26,19 @@ const BusinessAnalytics = () => {
     ]);
   return (
     <>
+
     <div className="nextcontainer1">
-        <div className="text1">Welcome to the World of </div>
-        <div className="heading">Data & Business Analytics </div>
-        <div className="text1"><i>We support leaders to EVOLVE their organizations using our proven business analyzinn services — helping you achieve a competitive advantage with actionable insights.</i></div>
-        <button> <div className="text1">Request a free consultation today</div></button>
+        <div className="text11">Welcome to the World of </div>
+        <div className="headingt">Data & Business Analytics </div>
+        <div className="textt"><i>We support leaders to EVOLVE their organizations using our proven business analyzinn services — helping you achieve a competitive advantage with actionable insights.</i></div>
+        <button> <div className="text11">Request a free consultation today</div></button>
     </div>
     <div style={{width:'100%',height:'50vh'}}>
     <div className="image-containerdba" >
         <img src={image} alt="Data and Business Analytics" className="image" />
     </div>
-    <div className="list-container">
+    
+    <div className="list-containerba">
         <p>ANALYZINN can help to gain competitive advantage by providing you the right knowledge, at the right time, so you can:</p>
         <ul>
           <li>Understand your customers & offer Superior Customer Experience</li>
@@ -47,7 +49,7 @@ const BusinessAnalytics = () => {
         </ul>
     </div>
     </div>
-    <div className="services-container" style={{padding:200}}>
+    <div className="servicesba-container" >
      {businessAnalytics.map((service, index) => (
        <BusinessAnalyticsList 
          key={index}

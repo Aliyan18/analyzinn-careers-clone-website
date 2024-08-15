@@ -14,6 +14,9 @@
 background-color: white;
 color:black;
 }
+a.active{
+    background-color: grey;
+}
 /* src/styleSheets/navbar.css */
 
 /* Change the navbar toggler icon color to white */
