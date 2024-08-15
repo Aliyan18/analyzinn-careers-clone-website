@@ -1,0 +1,48 @@
+.containerrrr{
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+    padding: 20px;
+    align-items: center;
+    /* max-width: 1900px; */
+    color: white;
+    text-align: center;
+    align-content: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch; /* Ensures all cards have the same height */
+    flex-wrap: wrap; /* Allows cards to wrap on smaller screens */
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+@media (max-width: 1300px) {
+    .services-container {
+        flex-direction: column; /* Stack cards vertically */
+        align-items: center; /* Center cards in the column layout */
+    }
+}
+
+@media (max-width: 768px) {
+    .containerrrrr {
+        font-size: 30px;
+        padding: 15px;
+    }
+}
+
+.underline {
+    align-content: center;
+    align-self: center;
+    bottom: 0;
+    height: 3px;
+    width: 3.5%;
+    background-color: rgb(58, 58, 229);
+    margin: 0 auto;
+    margin-top: 5px;
+}

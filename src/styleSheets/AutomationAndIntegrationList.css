@@ -1,0 +1,48 @@
+.serviceai-card {
+    margin: 20px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgb(198, 197, 197);
+    display: flex;
+    flex-direction:column;
+    float: left;
+    align-items: center;
+    margin-left: 120px;
+    margin-top: 100px;
+  }
+
+  .serviceai-title {
+    font-size: 1.5em;
+    color: black;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .serviceai-description {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+  }
+
+  @media (max-width: 1200px) {
+    .serviceai-card{
+      width: 250px;
+      padding: 10px;
+      margin: 10px;
+      margin-left: 100px;
+    }
+    .imageeai{
+      width: 200px;
+      height: auto;
+    }
+
+    .serviceai-title{
+      font-size: 1.3em;
+    }
+
+    .serviceai-description{
+      font-size: 18px;
+    }
+  }
+  
