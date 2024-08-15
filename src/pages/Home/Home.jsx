@@ -7,6 +7,8 @@ import Testimonials from '../../components/Testimonials.jsx'
 import Service from '../../components/Services.jsx'
 import WhoWeAre from './WhoWeAre.jsx'
 import WhychooseUs from './WhyChooseUs.jsx'
+import ContactForm from '../../components/ContactForm';
+
 export default function Home(){
 
 
@@ -24,6 +26,9 @@ export default function Home(){
  <Service></Service></div> 
  <WhychooseUs></WhychooseUs>
 <Testimonials style={{margin:'10px'}}></Testimonials>
+  <div style={{width:'100%'}}>
+<ContactForm text={"Request Info"} display={true}></ContactForm>
+</div> 
  {/* <MyFooter/>  */}
 
         </>

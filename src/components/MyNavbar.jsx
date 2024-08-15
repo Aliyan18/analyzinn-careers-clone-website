@@ -24,11 +24,11 @@ setStyle({...style,backgroundColor:"black"});
     } 
   return (
     <nav className="navbar navbar-expand-lg justify-content-between " style={style}>
-    <a className="navbar-brand custom-navbar" href="#" style={{color:'white',opacity:1,
+    <NavLink to="/" className="navbar-brand custom-navbar"  style={{color:'white',opacity:1,
     fontWeight: 200,marginLeft:20}}>
 
       <img src={logo} style={{height:'60px',width:'200px'}} alt="logo" />
-    </a>
+    </NavLink>
     <div>
 
     <button onClick={handleClick} className="navbar-toggler " type="button" style={{backgroundColor:'white',opacity:1,

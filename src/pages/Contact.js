@@ -9,7 +9,7 @@ export default function Contact(){
 
     <>
     <div>
-    <ContactForm />
+    <ContactForm text={"Contact"}/>
     <ContactInfo />
     </div>
 

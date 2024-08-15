@@ -3,11 +3,11 @@
     display: flex;
     justify-content: flex-end; /* Use flex-end instead of right */
     flex-direction: column;
-    margin-left: 50vw;
+     margin-left: 50vw;
     color:white;
-    padding-top: 400px;
+     padding-top: 35vh; 
     overflow:hidden;
-    padding-right: 10vw;
+     padding-right: 10vw; 
 
 }
 .p1{
@@ -30,9 +30,8 @@
     flex-direction: column;
     margin-left: 0;
     color:white;
-    padding-top:50;
     margin:0 auto;
-    
+
 }
 .p1{
     font-size:5px ;
@@ -44,7 +43,7 @@
     font-size:8px ;
 }
 }
-@media(max-width:550px){
+@media(max-width:600px){
     .introText{
         width:100%;
         display: flex;
@@ -52,7 +51,7 @@
         flex-direction: column;
         margin: 0;
         color:white;
-        padding-top:0;
+        padding: 15vh; 
     }
     .p1{
         font-size:5px ;

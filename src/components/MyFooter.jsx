@@ -1,4 +1,5 @@
- 
+import { BrowserRouter,  Route, Routes,NavLink } from 'react-router-dom';
+
 
  export default function Footer(){
   const styles={
@@ -6,10 +7,10 @@
   }
   return (
   <>
-  <div className="container" style={{padding:0,width:'100vw',margin:0,width:'100vw'}}>
+  <div className="container" style={{padding:0,width:'100vw',margin:0,width:'99vw'}}>
     <footer
             className="text-center text-lg-start text-white"
-            style={{margin:0,backgroundColor: "#45526e",width:'98.5vw',left:0,height:'100%'}}
+            style={{margin:0,backgroundColor: "#45526e",width:'99vw',left:0,height:'100%'}}
             >
       <div className="container p-4 pb-0">
         <section className="">
@@ -27,13 +28,13 @@
             <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
               <h6 className="text-uppercase mb-4 font-weight-bold">Services</h6>
               <p>
-                <a className="text-white" style={styles}>Business Analytics</a>
+                <NavLink to="/services" className="text-white" style={styles}>Business Analytics</NavLink>
               </p>
               <p>
-                <a className="text-white" style={styles}>Digital Marketing</a>
+                <NavLink to="/services" className="text-white" style={styles}>Digital Marketing</NavLink>
               </p>
               <p>
-                <a className="text-white" style={styles}>Automation & Integration</a>
+                <NavLink to="/services" className="text-white" style={styles}>Automation & Integration</NavLink>
               </p>
               {/* <p>
                 <a className="text-white">Bootstrap Angular</a>
@@ -46,13 +47,13 @@
               <h6 className="text-uppercase mb-4 font-weight-bold">
   Company            </h6>
               <p>
-                <a className="text-white" style={styles}>About</a>
+                <NavLink to="/about" className="text-white" style={styles}>About</NavLink>
               </p>
               <p>
-                <a className="text-white" style={styles}>Careers </a>
+                <NavLink to="/services" className="text-white" style={styles}>Services </NavLink>
               </p>
               <p>
-                <a className="text-white" style={styles}> Contact</a>
+                <NavLink to="/contact" className="text-white" style={styles}> Contact</NavLink>
               </p>
               {/* <p>
                 <a className="text-white">Help</a>

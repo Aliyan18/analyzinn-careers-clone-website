@@ -6,7 +6,7 @@ import '../styleSheets/ContactForm.css';
 
 const { Title, Paragraph } = Typography;
 
-const ContactForm = () => {
+const ContactForm = ({text, display}) => {
 
   const sendEmail = (values) => {
     console.log('Sending email with values:', values);
@@ -30,22 +30,22 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="contact-container" style={{position:'relative',top:-100,paddingTop:200}}>
+    <div className="contact-container" >
       <Row gutter={[16, 16]}>
         <Col xs={24} md={12}>
         <Title level={2} style={{ color: 'white', fontSize: '70px', fontFamily: ' Arial, sans-serif', fontWeight: 'bold' }}>
-                Contact
+               {text}
         </Title>          
           <Paragraph style={{  fontSize: '30px', color: '#fff',fontFamily: ' Arial, sans-serif', fontWeight: 'bold' }}>
             Feel free to contact us for any <br />questions or request a Free <br />Consultation
           </Paragraph>
-          <Paragraph style={{  fontSize: '16px', color: '#fff',fontFamily: ' Arial, sans-serif' }} >
-            We partner with our clients, take full ownership of their business needs
+          {!display && (<Paragraph style={{  fontSize: '16px', color: '#fff',fontFamily: ' Arial, sans-serif' }} >
+              We partner with our clients, take full ownership of their business needs
             and devise tailored solutions for their unique requirements. Our
             solutions are result-oriented, technology driven, with end-to-end
             implementations including Digital Marketing, BI frameworks, and
             strategic consultancy.
-          </Paragraph>
+          </Paragraph>)}
           <Title level={3} style={{ color: 'white', fontSize: '20px', fontFamily: ' Arial, sans-serif' }}>
                 Keep In Touch
         </Title> 
